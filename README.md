@@ -1,3 +1,34 @@
+Basic story:
+
+The user arrives at our site with the intent to learn more about different countries before deciding to travel there.
+
+On the home page they are introduced to a selection of countries that are represented with the country name and corresponding flag. When the user clicks on the flag it then displays some important information about that particular country (ex. Language, currency, capacitor city)
+
+The user can navigate to an about page to learn about the site’s purpose.
+
+The user may also navigate to the travelers experiences tab to view the list of countries again. This time when the user clicks on the country, the user will be able to see images/ comments added by other travelers about their experiences in these countries. The user will be able to submit their own travel experience image and comment to a country they themselves have visited via a form.
+
+(stretch goal) The user can then navigate to the currency exchange tab to discover what the current exchange rate would be for the country they have chosen to visit.
+
+
+User stories:
+As a user, I should view each country with a corresponding flag on the home page. I should be able to click on this flag image and reveal more details about that country: currency, language, capitol city, etc.
+As a user I should be able to navigate to the about page to learn more about the intention of the travel guide site.
+As a user I should be able to view images and reviews added by others who have traveled to that particular country when I navigate to the User experience tab on the nav bar. Here I as a user should also be able to add my own picture/ review of somewhere I visited in one of the countries if I wish.
+Stretch goal: As a user I should be able to find the currency exchange rate of that country by navigating to the currency exchange tab
+
+Challenges we expect to face:
+Getting react router set up the way we want it to work
+Navigating the data flow between our components.
+Figuring out the best way to use CSS or using styled components
+
+How we are meeting the requirements:
+Our navigation component will enable us to use React router and navigate between Home, About, User experience , and if able to achieve our stretch goal the currency exchange tab.
+We will create several components including nav, countries container, country card, about, experience form, experiences container, etc.
+We will include a json file that contains all of our data required for each country and its initial user experiences. This will allow us to make POST requests to add new user experiences.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -39,32 +70,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
