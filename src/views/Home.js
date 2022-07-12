@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from 'react'
-import HomeCountries from './HomeCountries'
+import HomeCountries from '../components/HomeCountries'
 
 
-function HomepageContainer() {
+function Home() {
   const [countries, setCountries] = useState([])
 
   useEffect(()=> {
@@ -23,4 +23,4 @@ function HomepageContainer() {
   )
 }
 
-export default HomepageContainer
+export default Home
