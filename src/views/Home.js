@@ -1,10 +1,10 @@
 import React, {useEffect, useState} from 'react'
-import HomeCountries from './HomeCountries'
+import HomeCountries from '../components/HomeCountries'
 import TextField from '@mui/material/TextField';
 import Grid from '@mui/material/Grid';
 
 
-function HomepageContainer() {
+function Home() {
 
   const [countries, setCountries] = useState([])
   const [search, setSearch] = useState("")
@@ -32,9 +32,9 @@ function HomepageContainer() {
 
   return (
     <div>
-      <TextField 
+      <TextField
       size="small"
-      variant="outlined" 
+      variant="outlined"
       label="Select a Country"
       value={search}
       onChange={handleSearch}
@@ -48,4 +48,4 @@ function HomepageContainer() {
   )
 }
 
-export default HomepageContainer
+export default Home
