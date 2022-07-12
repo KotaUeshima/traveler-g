@@ -13,20 +13,22 @@ import {
 
 function App() {
   return (
-    <Router>
-      <Nav />
-      <Switch>
-        <Route path="/traveler-experiences">
-          <TravelerExperiences />
-        </Route>
-        <Route path="/about">
-          <About />
-        </Route>
-        <Route path="/">
-          <Home />
-        </Route>
-      </Switch>
-    </Router>
+    <div className="App">
+      <Router>
+        <Nav />
+        <Switch>
+          <Route path="/:id">
+            <TravelerExperiences />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
+    </div>
   );
 }
 
