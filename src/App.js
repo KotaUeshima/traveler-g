@@ -13,11 +13,11 @@ import {
 
 function App() {
   return (
-    <div className='App'>
+    <div className="App">
       <Router>
         <Nav />
         <Switch>
-          <Route path="/traveler-experiences">
+          <Route path="/:id">
             <TravelerExperiences />
           </Route>
           <Route path="/about">

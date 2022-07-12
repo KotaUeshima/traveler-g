@@ -1,4 +1,6 @@
 import React, {useState} from 'react';
+import './HomeCountries.css';
+import { Link } from 'react-router-dom';
 
 import Grid from '@mui/material/Grid';
 import Card from '@mui/material/Card';
@@ -19,54 +21,65 @@ import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 import GTranslateIcon from '@mui/icons-material/GTranslate';
 
 function HomeCountries({country}) {
-  const {flag, name, continent, capital, currencies, Language} = country
+  const {flag, name, continent, capital, currencies, Language, id} = country
 
   const [isFront, setIsFront] = useState(true)
+  const [open, setOpen] = useState(false)
+
+  const handleClose = () => {setOpen(false)}
+  const handleOpen = () => {setOpen(true)}
 
   return (
-    <Grid item xs={3}>
-      <Card>
-        {isFront? 
-        <CardMedia
-          component="img"
-          height="160"
-          image={flag}
-          alt={name}
-        /> : 
-        <List>
-          <ListItem>
-            <ListItemIcon> <PublicIcon/> </ListItemIcon>
-            <ListItemText primary={continent}/>
-          </ListItem>
-          <ListItem>
-            <ListItemIcon> <FlagIcon/> </ListItemIcon>
-            <ListItemText primary={capital}/>
-          </ListItem>
-          <ListItem>
-            <ListItemIcon> <AttachMoneyIcon/> </ListItemIcon>
-            <ListItemText primary={currencies}/>
-          </ListItem>
-          <ListItem>
-            <ListItemIcon> <GTranslateIcon/> </ListItemIcon>
-            <ListItemText primary={Language}/>
-          </ListItem>     
-        </List>
-        }
-        <CardContent>
-          <Typography variant="h5">
-            {name}
-          </Typography>
-        </CardContent>
-        <CardActions>
-          <Button 
-          size="small" 
-          onClick={() => setIsFront(!isFront)}
-          >
-          {isFront?"Learn More":"Go Back"}
-          </Button>
-        </CardActions>
-      </Card>
-    </Grid>
+      <Grid item xs={3}>
+          <Card>
+            {isFront? 
+            <CardMedia
+              component="img"
+              height="160"
+              image={flag}
+              alt={name}
+              onClick={handleOpen}
+            /> : 
+            <List>
+              <ListItem>
+                <ListItemIcon> <PublicIcon/> </ListItemIcon>
+                <ListItemText primary={continent}/>
+              </ListItem>
+              <ListItem>
+                <ListItemIcon> <FlagIcon/> </ListItemIcon>
+                <ListItemText primary={capital}/>
+              </ListItem>
+              <ListItem>
+                <ListItemIcon> <AttachMoneyIcon/> </ListItemIcon>
+                <ListItemText primary={currencies}/>
+              </ListItem>
+              <ListItem>
+                <ListItemIcon> <GTranslateIcon/> </ListItemIcon>
+                <ListItemText primary={Language}/>
+              </ListItem>     
+            </List>
+            }
+            <CardContent>
+              <Typography variant="h5">
+                {name}
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Button 
+              size="small" 
+              onClick={() => setIsFront(!isFront)}
+              >
+              {isFront?"Learn More":"Go Back"}
+              </Button>
+              <Link to={`/${id}`}>
+                <Button size="small">
+                  Experiences
+                </Button>
+              </Link>
+            </CardActions>
+          </Card>
+      </Grid>
+    
   )
 }
 
