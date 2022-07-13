@@ -1,318 +1,396 @@
 {
-    "countries": [
-      {
-        "id": 1,
-        "name": "Canada",
-        "continent": "North America",
-        "flag": "https://countryflagsapi.com/png/ca",
-        "capital": "Ottawa",
-        "currencies": "CAD",
-        "Language" : "English, French",
-        "travelReviews":[{
-          "img":"https://www.bayoffundy.com/assets/walking-ocean-floor.jpg",
-          "user":"CamilVanderglas",
+  "countries": [
+    {
+      "id": 1,
+      "name": "Canada",
+      "continent": "North America",
+      "flag": "https://countryflagsapi.com/png/ca",
+      "capital": "Ottawa",
+      "currencies": "CAD",
+      "Language": "English, French",
+      "travelReviews": [
+        {
+          "img": "https://www.bayoffundy.com/assets/walking-ocean-floor.jpg",
+          "user": "CamilVanderglas",
           "review": "Visited the Bay of Fundy in New Brunswick this summer with my family. What a great experience to see the highest tides in the world.If you are taking a trip to the east coast I would highly recommend visitng!"
         },
-      {
-        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0upNeVVwiIGbqE_5mia0oJj_l8RvDCoQ64A&usqp=CAU",
-          "user":"DavidBiehn",
+        {
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0upNeVVwiIGbqE_5mia0oJj_l8RvDCoQ64A&usqp=CAU",
+          "user": "DavidBiehn",
           "review": "Many people travel to Banf and Lake louise in the summer time but wow is it ever beautiful in the winter! It felt like I was living in winter wondrland! Don't forget your layers!"
-      },{
-        "img":"https://www.bayoffundy.com/assets/walking-ocean-floor.jpg",
-        "user":"CamilVanderglas",
-        "review": "Visited the Bay of Fundy in New Brunswick this summer with my family. What a great experience to see the highest tides in the world.If you are taking a trip to the east coast I would highly recommend visitng!"
-      },
-    {
-      "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0upNeVVwiIGbqE_5mia0oJj_l8RvDCoQ64A&usqp=CAU",
-        "user":"DavidBiehn",
-        "review": "Many people travel to Banf and Lake louise in the summer time but wow is it ever beautiful in the winter! It felt like I was living in winter wondrland! Don't forget your layers!"
-    },{
-      "img":"https://www.bayoffundy.com/assets/walking-ocean-floor.jpg",
-      "user":"CamilVanderglas",
-      "review": "Visited the Bay of Fundy in New Brunswick this summer with my family. What a great experience to see the highest tides in the world.If you are taking a trip to the east coast I would highly recommend visitng!"
+        },
+        {
+          "img": "https://www.bayoffundy.com/assets/walking-ocean-floor.jpg",
+          "user": "CamilVanderglas",
+          "review": "Visited the Bay of Fundy in New Brunswick this summer with my family. What a great experience to see the highest tides in the world.If you are taking a trip to the east coast I would highly recommend visitng!"
+        },
+        {
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0upNeVVwiIGbqE_5mia0oJj_l8RvDCoQ64A&usqp=CAU",
+          "user": "DavidBiehn",
+          "review": "Many people travel to Banf and Lake louise in the summer time but wow is it ever beautiful in the winter! It felt like I was living in winter wondrland! Don't forget your layers!"
+        },
+        {
+          "img": "https://www.bayoffundy.com/assets/walking-ocean-floor.jpg",
+          "user": "CamilVanderglas",
+          "review": "Visited the Bay of Fundy in New Brunswick this summer with my family. What a great experience to see the highest tides in the world.If you are taking a trip to the east coast I would highly recommend visitng!"
+        },
+        {
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0upNeVVwiIGbqE_5mia0oJj_l8RvDCoQ64A&usqp=CAU",
+          "user": "DavidBiehn",
+          "review": "Many people travel to Banf and Lake louise in the summer time but wow is it ever beautiful in the winter! It felt like I was living in winter wondrland! Don't forget your layers!"
+        },
+        {
+          "img": "https://www.bayoffundy.com/assets/walking-ocean-floor.jpg",
+          "user": "CamilVanderglas",
+          "review": "Visited the Bay of Fundy in New Brunswick this summer with my family. What a great experience to see the highest tides in the world.If you are taking a trip to the east coast I would highly recommend visitng!"
+        },
+        {
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0upNeVVwiIGbqE_5mia0oJj_l8RvDCoQ64A&usqp=CAU",
+          "user": "DavidBiehn",
+          "review": "Many people travel to Banf and Lake louise in the summer time but wow is it ever beautiful in the winter! It felt like I was living in winter wondrland! Don't forget your layers!"
+        },
+        {
+          "img": "https://www.bayoffundy.com/assets/walking-ocean-floor.jpg",
+          "user": "CamilVanderglas",
+          "review": "Visited the Bay of Fundy in New Brunswick this summer with my family. What a great experience to see the highest tides in the world.If you are taking a trip to the east coast I would highly recommend visitng!"
+        },
+        {
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0upNeVVwiIGbqE_5mia0oJj_l8RvDCoQ64A&usqp=CAU",
+          "user": "DavidBiehn",
+          "review": "Many people travel to Banf and Lake louise in the summer time but wow is it ever beautiful in the winter! It felt like I was living in winter wondrland! Don't forget your layers!"
+        },
+        {
+          "img": "https://www.bayoffundy.com/assets/walking-ocean-floor.jpg",
+          "user": "CamilVanderglas",
+          "review": "Visited the Bay of Fundy in New Brunswick this summer with my family. What a great experience to see the highest tides in the world.If you are taking a trip to the east coast I would highly recommend visitng!"
+        },
+        {
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0upNeVVwiIGbqE_5mia0oJj_l8RvDCoQ64A&usqp=CAU",
+          "user": "DavidBiehn",
+          "review": "Many people travel to Banf and Lake louise in the summer time but wow is it ever beautiful in the winter! It felt like I was living in winter wondrland! Don't forget your layers!"
+        },
+        {
+          "img": "https://www.planetware.com/photos-large/CDN/canada-niagara-falls-horseshoe-falls.jpg",
+          "user": "Kota",
+          "review": "Niagara Falls!!!"
+        }
+      ]
     },
-  {
-    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0upNeVVwiIGbqE_5mia0oJj_l8RvDCoQ64A&usqp=CAU",
-      "user":"DavidBiehn",
-      "review": "Many people travel to Banf and Lake louise in the summer time but wow is it ever beautiful in the winter! It felt like I was living in winter wondrland! Don't forget your layers!"
-  },{
-    "img":"https://www.bayoffundy.com/assets/walking-ocean-floor.jpg",
-    "user":"CamilVanderglas",
-    "review": "Visited the Bay of Fundy in New Brunswick this summer with my family. What a great experience to see the highest tides in the world.If you are taking a trip to the east coast I would highly recommend visitng!"
-  },
-{
-  "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0upNeVVwiIGbqE_5mia0oJj_l8RvDCoQ64A&usqp=CAU",
-    "user":"DavidBiehn",
-    "review": "Many people travel to Banf and Lake louise in the summer time but wow is it ever beautiful in the winter! It felt like I was living in winter wondrland! Don't forget your layers!"
-},{
-  "img":"https://www.bayoffundy.com/assets/walking-ocean-floor.jpg",
-  "user":"CamilVanderglas",
-  "review": "Visited the Bay of Fundy in New Brunswick this summer with my family. What a great experience to see the highest tides in the world.If you are taking a trip to the east coast I would highly recommend visitng!"
-},
-{
-"img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0upNeVVwiIGbqE_5mia0oJj_l8RvDCoQ64A&usqp=CAU",
-  "user":"DavidBiehn",
-  "review": "Many people travel to Banf and Lake louise in the summer time but wow is it ever beautiful in the winter! It felt like I was living in winter wondrland! Don't forget your layers!"
-},{
-  "img":"https://www.bayoffundy.com/assets/walking-ocean-floor.jpg",
-  "user":"CamilVanderglas",
-  "review": "Visited the Bay of Fundy in New Brunswick this summer with my family. What a great experience to see the highest tides in the world.If you are taking a trip to the east coast I would highly recommend visitng!"
-},
-{
-"img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0upNeVVwiIGbqE_5mia0oJj_l8RvDCoQ64A&usqp=CAU",
-  "user":"DavidBiehn",
-  "review": "Many people travel to Banf and Lake louise in the summer time but wow is it ever beautiful in the winter! It felt like I was living in winter wondrland! Don't forget your layers!"
-}]
-      },
-      {
-        "id": 2,
-        "name": "U.S.A",
-        "continent": "North America",
-        "flag": "https://countryflagsapi.com/png/us",
-        "capital": "Washington D.C.",
-        "currencies": "USD",
-        "Language" : "English"
-      },
-      {
-        "id": 3,
-        "name": "Mexico",
-        "continent": "North America",
-        "flag": "https://countryflagsapi.com/png/mx",
-        "capital": "Mexico City",
-        "currencies": "MXN",
-        "Language" : "Spanish"
-      },{
-        "id": 4,
-        "name": "Belize",
-        "continent": "Central America",
-        "flag": "https://countryflagsapi.com/png/bz",
-        "capital": "Belmopan",
-        "currencies": "BZ",
-        "Language" : "English, Belizean Creole"
-      },{
-        "id": 5,
-        "name": "Guatemala",
-        "continent": "Central America",
-        "flag": "https://countryflagsapi.com/png/gt",
-        "capital": "Guatemala City",
-        "currencies": "GTQ",
-        "Language" : "Spanish"
-      },{
-        "id": 6,
-        "name": "Nicaragua",
-        "continent": "Central America",
-        "flag": "https://countryflagsapi.com/png/ni",
-        "capital": "Managua",
-        "currencies": "NIO",
-        "Language" : "Spanish"
-      },{
-        "id": 7,
-        "name": "Panama",
-        "continent": "Central America",
-        "flag": "https://countryflagsapi.com/png/pa",
-        "capital": "Panama City",
-        "currencies": "PAB",
-        "Language" : "Spanish"
-      },{
-        "id": 8,
-        "name": "Venezuela",
-        "continent": "South America",
-        "flag": "https://countryflagsapi.com/png/ve",
-        "capital": "Caracas",
-        "currencies": "VEF",
-        "Language" : "Spanish"
-      },{
-        "id": 9,
-        "name": "Columbia",
-        "continent": "South America",
-        "flag": "https://countryflagsapi.com/png/co",
-        "capital": "Bogota",
-        "currencies": "COP",
-        "Language" : "Spanish"
-      },{
-        "id": 10,
-        "name": "Peru",
-        "continent": "South America",
-        "flag": "https://countryflagsapi.com/png/pe",
-        "capital": "Lima",
-        "currencies": "PEN",
-        "Language" : "Spanish"
-      },{
-        "id": 11,
-        "name": "Brazil",
-        "continent": "South America",
-        "flag": "https://countryflagsapi.com/png/br",
-        "capital": "Brasilia",
-        "currencies": "BRL",
-        "Language" : "Portugese"
-      },{
-        "id": 12,
-        "name": "Chile",
-        "continent": "South America",
-        "flag": "https://countryflagsapi.com/png/cl",
-        "capital": "Santiago",
-        "currencies": "CLP",
-        "Language" : "Spanish"
-      },{
-        "id": 13,
-        "name": "Argentina",
-        "continent": "South America",
-        "flag": "https://countryflagsapi.com/png/ar",
-        "capital": "Buenos Aires",
-        "currencies": "ARS",
-        "Language" : "Spanish"
-      },{
-        "id": 14,
-        "name": "Portugal",
-        "continent": "Europe",
-        "flag": "https://countryflagsapi.com/png/pt",
-        "capital": "Libson",
-        "currencies": "EUR",
-        "Language" : "Portugese"
-      },{
-        "id": 15,
-        "name": "Spain",
-        "continent": "Europe",
-        "flag": "https://countryflagsapi.com/png/es",
-        "capital": "Madrid",
-        "currencies": "EUR",
-        "Language" : "Spanish"
-      },{
-        "id": 16,
-        "name": "France",
-        "continent": "North America",
-        "flag": "https://countryflagsapi.com/png/fr",
-        "capital": "Paris",
-        "currencies": "EUR",
-        "Language" : "French"
-      },{
-        "id": 17,
-        "name": "Germany",
-        "continent": "Europe",
-        "flag": "https://countryflagsapi.com/png/de",
-        "capital": "Berlin",
-        "currencies": "EUR",
-        "Language" : "German"
-      },{
-        "id": 18,
-        "name": "Poland",
-        "continent": "Europe",
-        "flag": "https://countryflagsapi.com/png/pl",
-        "capital": "Warsaw",
-        "currencies": "PLN",
-        "Language" : "Polish"
-      },{
-        "id": 19,
-        "name": "Italy",
-        "continent": "Europe",
-        "flag": "https://countryflagsapi.com/png/it",
-        "capital": "Rome",
-        "currencies": "EUR",
-        "Language" : "Italian"
-      },{
-        "id": 20,
-        "name": "Finland",
-        "continent": "Europe",
-        "flag": "https://countryflagsapi.com/png/fi",
-        "capital": "Helsinki",
-        "currencies": "EUR",
-        "Language" : "Finnish, Swedish"
-      },{
-        "id": 21,
-        "name": "Ukraine",
-        "continent": "Europe",
-        "flag": "https://countryflagsapi.com/png/ua",
-        "capital": "Kiev",
-        "currencies": "UAH",
-        "Language" : "Ukrainian"
-      },{
-        "id": 22,
-        "name": "Turkey",
-        "continent": "Europe, Asia",
-        "flag": "https://countryflagsapi.com/png/tr",
-        "capital": "Ankara",
-        "currencies": "TL",
-        "Language" : "Turkish"
-      },{
-        "id": 23,
-        "name": "Russia",
-        "continent": "Europe, Asia",
-        "flag": "https://countryflagsapi.com/png/ru",
-        "capital": "Moscow",
-        "currencies": "RUB",
-        "Language" : "Russian"
-      },{
-        "id": 24,
-        "name": "China",
-        "continent": "Asia",
-        "flag": "https://countryflagsapi.com/png/cn",
-        "capital": "Beijing",
-        "currencies": "RMB",
-        "Language" : "Chinese"
-      },{
-        "id": 25,
-        "name": "Japan",
-        "continent": "Asia",
-        "flag": "https://countryflagsapi.com/png/jp",
-        "capital": "Tokyo",
-        "currencies": "JPY",
-        "Language" : "Japanese"
-      },{
-        "id": 26,
-        "name": "South Korea",
-        "continent": "Asia",
-        "flag": "https://countryflagsapi.com/png/kr",
-        "capital": "Seoul",
-        "currencies": "KRW",
-        "Language" : "Korean"
-      },{
-        "id": 27,
-        "name": "India",
-        "continent": "Asia",
-        "flag": "https://countryflagsapi.com/png/in",
-        "capital": "New Delhi",
-        "currencies": "INR",
-        "Language" : "Hindi, English"
-      },{
-        "id": 28,
-        "name": "Morocco",
-        "continent": "Africa",
-        "flag": "https://countryflagsapi.com/png/ma",
-        "capital": "Rabat",
-        "currencies": "MAD",
-        "Language" : "Arabic, Berber"
-      },{
-        "id": 29,
-        "name": "Senegal",
-        "continent": "Africa",
-        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/255px-Flag_of_Senegal.svg.png",
-        "capital": "Dakar",
-        "currencies": "CFA",
-        "Language" : "Wolof"
-      },{
-        "id": 30,
-        "name": "South Africa",
-        "continent": "Africa",
-        "flag": "https://countryflagsapi.com/png/za",
-        "capital": "Bloemfontein",
-        "currencies": "ZAR",
-        "Language" : "IsiZulu, Afrikaans, English"
-      },{
-        "id": 31,
-        "name": "Australia",
-        "continent": "Australia",
-        "flag": "https://countryflagsapi.com/png/au",
-        "capital": "Canberra",
-        "currencies": "AUD",
-        "Language" : "English"
-      },{
-        "id": 32,
-        "name": "New Zealand",
-        "continent": "Australia",
-        "flag": "https://countryflagsapi.com/png/nz",
-        "capital": "Wellington",
-        "currencies": "NZD",
-        "Language" : "English"
-      }
-    ]
-  }
+    {
+      "id": 2,
+      "name": "U.S.A",
+      "continent": "North America",
+      "flag": "https://countryflagsapi.com/png/us",
+      "capital": "Washington D.C.",
+      "currencies": "USD",
+      "Language": "English",
+      "travelReviews": [
+        {
+          "img": "https://www.travelandleisure.com/thmb/gPCyzXAnVMK116tKpy03OWXtEZI=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc():gifv():format(webp)/new-york-city-evening-NYCTG0221-52492d6ccab44f328a1c89f41ac02aea.jpg",
+          "user": "Kota",
+          "review": "New York is Awesome"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Mexico",
+      "continent": "North America",
+      "flag": "https://countryflagsapi.com/png/mx",
+      "capital": "Mexico City",
+      "currencies": "MXN",
+      "Language": "Spanish",
+      "travelReviews": []
+    },
+    {
+      "id": 4,
+      "name": "Belize",
+      "continent": "Central America",
+      "flag": "https://countryflagsapi.com/png/bz",
+      "capital": "Belmopan",
+      "currencies": "BZ",
+      "Language": "English, Belizean Creole",
+      "travelReviews": []
+    },
+    {
+      "id": 5,
+      "name": "Guatemala",
+      "continent": "Central America",
+      "flag": "https://countryflagsapi.com/png/gt",
+      "capital": "Guatemala City",
+      "currencies": "GTQ",
+      "Language": "Spanish",
+      "travelReviews": []
+    },
+    {
+      "id": 6,
+      "name": "Nicaragua",
+      "continent": "Central America",
+      "flag": "https://countryflagsapi.com/png/ni",
+      "capital": "Managua",
+      "currencies": "NIO",
+      "Language": "Spanish",
+      "travelReviews": []
+    },
+    {
+      "id": 7,
+      "name": "Panama",
+      "continent": "Central America",
+      "flag": "https://countryflagsapi.com/png/pa",
+      "capital": "Panama City",
+      "currencies": "PAB",
+      "Language": "Spanish",
+      "travelReviews": []
+    },
+    {
+      "id": 8,
+      "name": "Venezuela",
+      "continent": "South America",
+      "flag": "https://countryflagsapi.com/png/ve",
+      "capital": "Caracas",
+      "currencies": "VEF",
+      "Language": "Spanish",
+      "travelReviews": []
+    },
+    {
+      "id": 9,
+      "name": "Columbia",
+      "continent": "South America",
+      "flag": "https://countryflagsapi.com/png/co",
+      "capital": "Bogota",
+      "currencies": "COP",
+      "Language": "Spanish",
+      "travelReviews": []
+    },
+    {
+      "id": 10,
+      "name": "Peru",
+      "continent": "South America",
+      "flag": "https://countryflagsapi.com/png/pe",
+      "capital": "Lima",
+      "currencies": "PEN",
+      "Language": "Spanish",
+      "travelReviews": []
+    },
+    {
+      "id": 11,
+      "name": "Brazil",
+      "continent": "South America",
+      "flag": "https://countryflagsapi.com/png/br",
+      "capital": "Brasilia",
+      "currencies": "BRL",
+      "Language": "Portugese",
+      "travelReviews": []
+    },
+    {
+      "id": 12,
+      "name": "Chile",
+      "continent": "South America",
+      "flag": "https://countryflagsapi.com/png/cl",
+      "capital": "Santiago",
+      "currencies": "CLP",
+      "Language": "Spanish",
+      "travelReviews": []
+    },
+    {
+      "id": 13,
+      "name": "Argentina",
+      "continent": "South America",
+      "flag": "https://countryflagsapi.com/png/ar",
+      "capital": "Buenos Aires",
+      "currencies": "ARS",
+      "Language": "Spanish",
+      "travelReviews": []
+    },
+    {
+      "id": 14,
+      "name": "Portugal",
+      "continent": "Europe",
+      "flag": "https://countryflagsapi.com/png/pt",
+      "capital": "Libson",
+      "currencies": "EUR",
+      "Language": "Portugese",
+      "travelReviews": []
+    },
+    {
+      "id": 15,
+      "name": "Spain",
+      "continent": "Europe",
+      "flag": "https://countryflagsapi.com/png/es",
+      "capital": "Madrid",
+      "currencies": "EUR",
+      "Language": "Spanish",
+      "travelReviews": []
+    },
+    {
+      "id": 16,
+      "name": "France",
+      "continent": "North America",
+      "flag": "https://countryflagsapi.com/png/fr",
+      "capital": "Paris",
+      "currencies": "EUR",
+      "Language": "French",
+      "travelReviews": []
+    },
+    {
+      "id": 17,
+      "name": "Germany",
+      "continent": "Europe",
+      "flag": "https://countryflagsapi.com/png/de",
+      "capital": "Berlin",
+      "currencies": "EUR",
+      "Language": "German",
+      "travelReviews": []
+    },
+    {
+      "id": 18,
+      "name": "Poland",
+      "continent": "Europe",
+      "flag": "https://countryflagsapi.com/png/pl",
+      "capital": "Warsaw",
+      "currencies": "PLN",
+      "Language": "Polish",
+      "travelReviews": []
+    },
+    {
+      "id": 19,
+      "name": "Italy",
+      "continent": "Europe",
+      "flag": "https://countryflagsapi.com/png/it",
+      "capital": "Rome",
+      "currencies": "EUR",
+      "Language": "Italian",
+      "travelReviews": []
+    },
+    {
+      "id": 20,
+      "name": "Finland",
+      "continent": "Europe",
+      "flag": "https://countryflagsapi.com/png/fi",
+      "capital": "Helsinki",
+      "currencies": "EUR",
+      "Language": "Finnish, Swedish",
+      "travelReviews": []
+    },
+    {
+      "id": 21,
+      "name": "Ukraine",
+      "continent": "Europe",
+      "flag": "https://countryflagsapi.com/png/ua",
+      "capital": "Kiev",
+      "currencies": "UAH",
+      "Language": "Ukrainian",
+      "travelReviews": []
+    },
+    {
+      "id": 22,
+      "name": "Turkey",
+      "continent": "Europe, Asia",
+      "flag": "https://countryflagsapi.com/png/tr",
+      "capital": "Ankara",
+      "currencies": "TL",
+      "Language": "Turkish",
+      "travelReviews": []
+    },
+    {
+      "id": 23,
+      "name": "Russia",
+      "continent": "Europe, Asia",
+      "flag": "https://countryflagsapi.com/png/ru",
+      "capital": "Moscow",
+      "currencies": "RUB",
+      "Language": "Russian",
+      "travelReviews": []
+    },
+    {
+      "id": 24,
+      "name": "China",
+      "continent": "Asia",
+      "flag": "https://countryflagsapi.com/png/cn",
+      "capital": "Beijing",
+      "currencies": "RMB",
+      "Language": "Chinese",
+      "travelReviews": []
+    },
+    {
+      "id": 25,
+      "name": "Japan",
+      "continent": "Asia",
+      "flag": "https://countryflagsapi.com/png/jp",
+      "capital": "Tokyo",
+      "currencies": "JPY",
+      "Language": "Japanese",
+      "travelReviews": []
+    },
+    {
+      "id": 26,
+      "name": "South Korea",
+      "continent": "Asia",
+      "flag": "https://countryflagsapi.com/png/kr",
+      "capital": "Seoul",
+      "currencies": "KRW",
+      "Language": "Korean",
+      "travelReviews": []
+    },
+    {
+      "id": 27,
+      "name": "India",
+      "continent": "Asia",
+      "flag": "https://countryflagsapi.com/png/in",
+      "capital": "New Delhi",
+      "currencies": "INR",
+      "Language": "Hindi, English",
+      "travelReviews": []
+    },
+    {
+      "id": 28,
+      "name": "Morocco",
+      "continent": "Africa",
+      "flag": "https://countryflagsapi.com/png/ma",
+      "capital": "Rabat",
+      "currencies": "MAD",
+      "Language": "Arabic, Berber",
+      "travelReviews": []
+    },
+    {
+      "id": 29,
+      "name": "Senegal",
+      "continent": "Africa",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/255px-Flag_of_Senegal.svg.png",
+      "capital": "Dakar",
+      "currencies": "CFA",
+      "Language": "Wolof",
+      "travelReviews": []
+    },
+    {
+      "id": 30,
+      "name": "South Africa",
+      "continent": "Africa",
+      "flag": "https://countryflagsapi.com/png/za",
+      "capital": "Bloemfontein",
+      "currencies": "ZAR",
+      "Language": "IsiZulu, Afrikaans, English",
+      "travelReviews": []
+    },
+    {
+      "id": 31,
+      "name": "Australia",
+      "continent": "Australia",
+      "flag": "https://countryflagsapi.com/png/au",
+      "capital": "Canberra",
+      "currencies": "AUD",
+      "Language": "English",
+      "travelReviews": []
+    },
+    {
+      "id": 32,
+      "name": "New Zealand",
+      "continent": "Australia",
+      "flag": "https://countryflagsapi.com/png/nz",
+      "capital": "Wellington",
+      "currencies": "NZD",
+      "Language": "English",
+      "travelReviews": []
+    }
+  ]
+}
