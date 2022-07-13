@@ -1,8 +1,10 @@
 /* Container For All Country Cards */
 .home .home__grid{
     margin-top: 50px;
+    overflow:scroll;
 }
 
 .home{
     grid-row: 2;
+    background-color: #e1e8eb;
 }

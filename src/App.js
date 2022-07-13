@@ -16,17 +16,19 @@ function App() {
     <div className="App">
       <Router>
         <ResponsiveAppBar />
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/:id">
-            <TravelerExperiences />
-          </Route>
-        </Switch>
+        <div>
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/:id">
+              <TravelerExperiences />
+            </Route>
+          </Switch>
+        </div>
       </Router>
     </div>
   );

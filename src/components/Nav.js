@@ -6,7 +6,7 @@ const ResponsiveAppBar = () => {
   return (
     <Styles.Container>
       <Styles.Title>
-        Traveler
+        Where in the World?
       </Styles.Title>
       <Styles.NavLink to="/">
         HOME
@@ -22,7 +22,7 @@ export default ResponsiveAppBar;
 
 const Styles = {
   NavLink: styled(Link)`
-    color: yellow;
+    color: black;
     margin-right: 20px;
     text-decoration: none;
   `,
@@ -31,11 +31,13 @@ const Styles = {
     display: flex;
     flex: 1;
     min-width: 0;
-    background-color: purple;
+    background-color: #bcdfdf;
     width: 100vw;
   `,
   Title: styled.h1`
+  margin-left: 15px;
+  margin-right: 200px;
     font-size: 20px;
-    margin: 10px;
+    /* margin: 10px; */
   `,
 }
