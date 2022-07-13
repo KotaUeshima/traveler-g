@@ -1,4 +1,6 @@
 import React from 'react'
+import './TravelReviewCard.css'
+
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 import IconButton from '@mui/material/IconButton';
@@ -9,16 +11,17 @@ function TravelReviewCard({review}) {
         console.log('hello')
     }
   return (
-    <div>
+    <div className="travelCard">
         <ImageListItem key={review.user}>
           <img
-            src={`${review.img}?w=248&fit=crop&auto=format`}
-            srcSet={`${review.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+            src={`${review.img}?w=255&h=255&fit=crop&auto=format`}
+            srcSet={`${review.img}?w=255&h=255&fit=crop&auto=format&dpr=2 2x`}
             alt={review.user}
             loading="lazy"
           />
           <ImageListItemBar
             titleWrap
+            position='bottom'
             subtitle={review.user}
             actionIcon={
               <IconButton onClick={handleUserReview}
