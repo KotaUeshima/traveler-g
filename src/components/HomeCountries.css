@@ -1,6 +1,0 @@
-.modal .modal_card{
-    position: absolute;
-    top: calc(50% - 200px);
-    left: calc(50% - 200px);
-    background-color: blue;
-}
