@@ -1,23 +1,36 @@
 import React, {useEffect, useState} from 'react'
 import {useParams} from 'react-router-dom'
+import TravelerReviews from '../components/TravelerReviews'
 
 function TravelerExperiences() {
   const {id} = useParams()
   const [country, setCountry] = useState({})
+  const [loading, setLoading] = useState(true)
 
-  const {flag, name, continent, capital, currencies, Language} = country
+
 
   useEffect(() => {
-    fetch(`http://localhost:3000/countries/${id}`)
-    .then(res => res.json())
-    .then(setCountry)
-  }, [id])
+      fetch(`http://localhost:3000/countries/${id}`)
+      .then(res => res.json())
+      .then(setCountry)
+      .finally(() => {
+        setLoading(false);
+      });
+    }, [id])
 
-  return (
-    <div>
-        hi
-      <img src={flag}/>
-    </div>
+    if (loading) {
+        console.log(loading)
+        console.log(country)
+    return <p>Data is loading...</p>;
+  }
+  console.log(loading)
+  console.log(country)
+
+    return (
+        <div>
+            <h1>Travelrs experiences in {country.name}</h1>
+            <TravelerReviews reviews={country.travelReviews}/>
+        </div>
   )
 }
 

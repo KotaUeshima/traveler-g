@@ -7,7 +7,62 @@
         "flag": "https://countryflagsapi.com/png/ca",
         "capital": "Ottawa",
         "currencies": "CAD",
-        "Language" : "English, French"
+        "Language" : "English, French",
+        "travelReviews":[{
+          "img":"https://www.bayoffundy.com/assets/walking-ocean-floor.jpg",
+          "user":"CamilVanderglas",
+          "review": "Visited the Bay of Fundy in New Brunswick this summer with my family. What a great experience to see the highest tides in the world.If you are taking a trip to the east coast I would highly recommend visitng!"
+        },
+      {
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0upNeVVwiIGbqE_5mia0oJj_l8RvDCoQ64A&usqp=CAU",
+          "user":"DavidBiehn",
+          "review": "Many people travel to Banf and Lake louise in the summer time but wow is it ever beautiful in the winter! It felt like I was living in winter wondrland! Don't forget your layers!"
+      },{
+        "img":"https://www.bayoffundy.com/assets/walking-ocean-floor.jpg",
+        "user":"CamilVanderglas",
+        "review": "Visited the Bay of Fundy in New Brunswick this summer with my family. What a great experience to see the highest tides in the world.If you are taking a trip to the east coast I would highly recommend visitng!"
+      },
+    {
+      "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0upNeVVwiIGbqE_5mia0oJj_l8RvDCoQ64A&usqp=CAU",
+        "user":"DavidBiehn",
+        "review": "Many people travel to Banf and Lake louise in the summer time but wow is it ever beautiful in the winter! It felt like I was living in winter wondrland! Don't forget your layers!"
+    },{
+      "img":"https://www.bayoffundy.com/assets/walking-ocean-floor.jpg",
+      "user":"CamilVanderglas",
+      "review": "Visited the Bay of Fundy in New Brunswick this summer with my family. What a great experience to see the highest tides in the world.If you are taking a trip to the east coast I would highly recommend visitng!"
+    },
+  {
+    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0upNeVVwiIGbqE_5mia0oJj_l8RvDCoQ64A&usqp=CAU",
+      "user":"DavidBiehn",
+      "review": "Many people travel to Banf and Lake louise in the summer time but wow is it ever beautiful in the winter! It felt like I was living in winter wondrland! Don't forget your layers!"
+  },{
+    "img":"https://www.bayoffundy.com/assets/walking-ocean-floor.jpg",
+    "user":"CamilVanderglas",
+    "review": "Visited the Bay of Fundy in New Brunswick this summer with my family. What a great experience to see the highest tides in the world.If you are taking a trip to the east coast I would highly recommend visitng!"
+  },
+{
+  "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0upNeVVwiIGbqE_5mia0oJj_l8RvDCoQ64A&usqp=CAU",
+    "user":"DavidBiehn",
+    "review": "Many people travel to Banf and Lake louise in the summer time but wow is it ever beautiful in the winter! It felt like I was living in winter wondrland! Don't forget your layers!"
+},{
+  "img":"https://www.bayoffundy.com/assets/walking-ocean-floor.jpg",
+  "user":"CamilVanderglas",
+  "review": "Visited the Bay of Fundy in New Brunswick this summer with my family. What a great experience to see the highest tides in the world.If you are taking a trip to the east coast I would highly recommend visitng!"
+},
+{
+"img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0upNeVVwiIGbqE_5mia0oJj_l8RvDCoQ64A&usqp=CAU",
+  "user":"DavidBiehn",
+  "review": "Many people travel to Banf and Lake louise in the summer time but wow is it ever beautiful in the winter! It felt like I was living in winter wondrland! Don't forget your layers!"
+},{
+  "img":"https://www.bayoffundy.com/assets/walking-ocean-floor.jpg",
+  "user":"CamilVanderglas",
+  "review": "Visited the Bay of Fundy in New Brunswick this summer with my family. What a great experience to see the highest tides in the world.If you are taking a trip to the east coast I would highly recommend visitng!"
+},
+{
+"img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0upNeVVwiIGbqE_5mia0oJj_l8RvDCoQ64A&usqp=CAU",
+  "user":"DavidBiehn",
+  "review": "Many people travel to Banf and Lake louise in the summer time but wow is it ever beautiful in the winter! It felt like I was living in winter wondrland! Don't forget your layers!"
+}]
       },
       {
         "id": 2,
