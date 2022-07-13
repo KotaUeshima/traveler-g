@@ -7,33 +7,16 @@
         "flag": "https://countryflagsapi.com/png/ca",
         "capital": "Ottawa",
         "currencies": "CAD",
-        "Language" : "English, French",
-        "TravelerReviews":[{
-          "img":"https://www.ferries.ca/content/uploads/2017/10/hopewell-rocks.jpg",
-          "review":"Took my family on a vacation to the east coast of Canada and visited the Bay of Fundy located New Brunswick. What an amazing adventure we had! So much to see and we were blown away to see the highest tides in the world! If you are visiting the east coast of Canada this is a must see!"
-
-        },
-      {
-        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2duUjJtfAbtO5BhL4iiWlAG8kxidKK31YtA&usqp=CAU",
-        "review": "My significant other and I made a weekend trip to Quebec city, Quebec and it felt like we were transported to a European city! Just walking through the old streets and stopping into various restaurants and cafes was wonderful. If you are able, I would recomend staying at the famous Château Frontenac! It is truly beautiful. "
-      }]
+        "Language" : "English, French"
       },
       {
         "id": 2,
-        "name": "United States of America",
+        "name": "U.S.A",
         "continent": "North America",
         "flag": "https://countryflagsapi.com/png/us",
         "capital": "Washington D.C.",
         "currencies": "USD",
-        "Language" : "English",
-        "TravelerReviews":[{
-          "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTugJf-rH8jjlSJJVSB9RsfjM4LWxaoGRmwqA&usqp=CAU",
-        "review":"My mother and I decided to go on a weekend getaway to NYC. Both of us had never been before so we were excited to visit all the great spots we see in movies and on TV. Absolutly loved central park, I could see how someone would spend their whole day there. Of course we saw a show on broadway, which I would highly recommend. Time square was cool to see but I was happy to spend 20 minutes there, soooo many people!! Top tip: You cannot go wrong with a NY slice of pizza!"
-      },
-      {
-        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPJXYBXYV7I8lYiQ7sAp8WeAXtCqpGvUv5GA&usqp=CAU",
-        "review": "I recently visited San Fran for the first time. Lots of good eats! I had a fun time seeing some of the classic landmarks and even rode in a cable car! What a cool experience. I found it to be much windier than I expected and BEWARE the fog! Sometimes the fog is so thick you cannot see the golden gate bridge... which happened the day I went to see it! Lucky I was able to make time on my last day to see it while it was clear, and I do not regret it!"
-      }]
+        "Language" : "English"
       },
       {
         "id": 3,
@@ -247,7 +230,7 @@
         "id": 29,
         "name": "Senegal",
         "continent": "Africa",
-        "flag": "https://countryflagsapi.com/png/se",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/255px-Flag_of_Senegal.svg.png",
         "capital": "Dakar",
         "currencies": "CFA",
         "Language" : "Wolof"
