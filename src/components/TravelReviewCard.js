@@ -18,7 +18,6 @@ function TravelReviewCard({review}) {
             loading="lazy"
           />
           <ImageListItemBar
-            titleWrap
             subtitle={review.user}
             actionIcon={
               <IconButton onClick={handleUserReview}
