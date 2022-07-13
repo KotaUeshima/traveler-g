@@ -230,7 +230,7 @@
         "id": 29,
         "name": "Senegal",
         "continent": "Africa",
-        "flag": "https://countryflagsapi.com/png/se",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/255px-Flag_of_Senegal.svg.png",
         "capital": "Dakar",
         "currencies": "CFA",
         "Language" : "Wolof"
