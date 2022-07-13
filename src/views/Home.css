@@ -1,7 +1,6 @@
 /* Container For All Country Cards */
 .home .home__grid{
     margin-top: 50px;
-    overflow:scroll;
 }
 
 .home{
