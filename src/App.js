@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css';
 import Home from './views/Home';
-import Nav from './components/Nav.js'
+import ResponsiveAppBar from './components/Nav.js'
 import About from './views/About'
 import TravelerExperiences from './views/TravelerExperiences';
 import {
@@ -15,18 +15,20 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Nav />
-        <Switch>
-          <Route path="/:id">
-            <TravelerExperiences />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
+        <ResponsiveAppBar />
+        <div>
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/:id">
+              <TravelerExperiences />
+            </Route>
+          </Switch>
+        </div>
       </Router>
     </div>
   );

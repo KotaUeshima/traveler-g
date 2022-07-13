@@ -15,6 +15,7 @@ function TravelerExperiences() {
 
   return (
     <div>
+        hi
       <img src={flag}/>
     </div>
   )
