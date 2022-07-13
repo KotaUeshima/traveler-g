@@ -1,8 +1,11 @@
 import React, {useEffect, useState} from 'react'
 import HomeCountries from '../components/HomeCountries'
+import './Home.css'
+
 import TextField from '@mui/material/TextField';
 import Grid from '@mui/material/Grid';
-
+import Container from '@mui/material/Container';
+import Box from '@mui/material/Box';
 
 function Home() {
 
@@ -31,19 +34,23 @@ function Home() {
   })
 
   return (
-    <div>
-      <TextField
-      size="small"
-      variant="outlined"
-      label="Select a Country"
-      value={search}
-      onChange={handleSearch}
-      />
-      <br></br>
-      <br></br>
-      <Grid container spacing={4}>
-        {countryCards}
-      </Grid>
+    <div className="home">
+      <Container sx={{width: 1100}}>
+        <Box>
+          <TextField
+          size="small"
+          variant="outlined"
+          label="Search Country"
+          value={search}
+          onChange={handleSearch}
+          />
+          <div className="home__grid">
+            <Grid container spacing={5}>
+              {countryCards}
+            </Grid>
+          </div>
+        </Box>
+      </Container>
     </div>
   )
 }
