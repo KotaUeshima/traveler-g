@@ -29,7 +29,6 @@ function TravelerExperiences() {
     return (
       <div className="experience">
           <h1>Traveler's experiences in {country.name}</h1>
-          <p>Enter Your Experience Below:</p>
           <ModalForm id={id} reviews={country.travelReviews} addToPage={addToPage}/>
           <TravelerReviews reviews={country.travelReviews}/>
       </div>
