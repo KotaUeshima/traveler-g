@@ -26,7 +26,7 @@ function TravelerReviews({reviews = [], id}) {
   return (
     <div className="experience">
       <ModalForm id={id} reviews={newReviews} addToPage={addToPage}/>
-      <Container sx={{width: 1200}}>
+      <Container sx={{ height: 1000 , width: 1200}}>
         <ImageList sx={{height: 600}} cols={4} rowHeight={255}>
             {travelCard}
         </ImageList>

@@ -37,7 +37,7 @@ function HomeCountries({country}) {
     .then(res=> res.json())
     .then(data => setCurrencyRate(data.conversion_rates[currencies]))
   }
-  const countryCurrency = `${currencies} : ${currencyRate} USD`
+  const countryCurrency = `USD = ${currencyRate} ${currencies}`
 
 
   return (
