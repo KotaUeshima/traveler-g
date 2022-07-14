@@ -8,8 +8,44 @@ import InfoIcon from '@mui/icons-material/Info';
 import { Popover } from '@mui/material';
 import { Typography } from '@mui/material';
 
-function TravelReviewCard({review}) {
-    const [anchorEl, setAnchorEl] = React.useState(null);
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+
+function TravelReviewCard({review, id, newReviews, updateNewReviews}) {
+    const [anchorEl, setAnchorEl] = useState(null);
+    const [liked, setLiked] = useState(false)
+    const [numberOfLikes, setNumberOfLikes] = useState(review.like)
+    
+    function handleLike(){
+      if(liked === false){
+
+        const newLikes = numberOfLikes + 1
+        // relies on images 
+        const reviewsWithoutReview = newReviews.filter(element => !(element.img === review.img))
+
+        const updateLikes = [...reviewsWithoutReview, {
+          ...review, like: newLikes
+        }]
+
+
+        fetch(`http://localhost:3000/countries/${id}`,{
+        method: "PATCH",
+        headers: {
+            "Content-Type": "application/json",
+            "Accept": "application/json"
+        },
+        body: JSON.stringify({
+          travelReviews: updateLikes
+        }),
+        })
+        .then(res => res.json())
+        .then((data) => {
+          setNumberOfLikes(likes => likes + 1)
+          updateNewReviews(data.travelReviews)
+        })
+      }
+      setLiked(!liked)
+    }
 
 
     const handleClose = () => {
@@ -21,7 +57,10 @@ function TravelReviewCard({review}) {
     };
 
     const open = Boolean(anchorEl);
-    const id = open ? 'simple-popover' : undefined;
+    const idid = open ? 'simple-popover' : undefined;
+
+    const subtitle = `${review.user} (${numberOfLikes})`
+    const color = liked? 'rgba(255, 76, 48)' : 'rgba(255, 255, 255, 0.54)'
 
   return (
     <div className="travelCard">
@@ -34,18 +73,27 @@ function TravelReviewCard({review}) {
           />
           <ImageListItemBar
             position='bottom'
-            subtitle={review.user}
+            subtitle={subtitle}
             actionIcon={
-              <IconButton onClick={handleClick}
-                sx={{ color: 'rgba(255, 255, 255, 0.54)' }}
-                aria-label={`info about ${review.user}`}
-              >
-                <InfoIcon />
-              </IconButton>
+              <>
+                <IconButton 
+                  onClick={handleClick}
+                  sx={{ color: 'rgba(255, 255, 255, 0.54)' }}
+                  aria-label={`info about ${review.user}`}
+                >
+                  <InfoIcon />
+                </IconButton>
+                <IconButton
+                  onClick={handleLike}
+                  sx= {{ color: {color}}}
+                >
+                  {liked? <FavoriteIcon/> : <FavoriteBorderIcon/>}
+                </IconButton>
+              </>
             }
           />
             <Popover
-                  id={id}
+                  id={idid}
                   open={open}
                   anchorEl={anchorEl}
                   onClose={handleClose}
