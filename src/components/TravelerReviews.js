@@ -1,20 +1,28 @@
-import React from 'react'
+import React, {useState} from 'react'
 import TravelReviewCard from './TravelReviewCard';
 
 
 import Container from '@mui/material/Container';
 import ImageList from '@mui/material/ImageList';
 
-function TravelerReviews({reviews = []}) {
+function TravelerReviews({reviews = [], id}) {
+    const [newReviews, setNewReviews] = useState(reviews)
 
-    const travelCard = reviews.map((review)=> {
-        return <TravelReviewCard key={review.user} review={review}/>
+    function updateNewReviews(data){
+      setNewReviews(data)
+    }
+
+    // sort by number of likes
+    newReviews.sort((a, b) => b.like - a.like)
+
+    const travelCard = newReviews.map((review)=> {
+        return <TravelReviewCard key={review.img} newReviews={newReviews} review={review} id={id} updateNewReviews={updateNewReviews}/>
     })
 
   return (
     <div className="experience">
       <Container sx={{width: 1200}}>
-        <ImageList sx={{height: 700}} cols={4} rowHeight={255}>
+        <ImageList sx={{height: 600}} cols={4} rowHeight={255}>
             {travelCard}
         </ImageList>
       </Container>

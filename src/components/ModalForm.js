@@ -31,6 +31,7 @@ function handleSubmit(e){
     const formObj = {
         "img": image,
         "user": username,
+        "like": 0,
         "review": comment
     }
     fetch(`http://localhost:3000/countries/${id}`,{
