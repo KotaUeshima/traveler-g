@@ -1,17 +1,27 @@
 import React, {useState} from 'react'
-//import './TravelReviewCard.css'
+import './TravelReviewCard.css'
 
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 import IconButton from '@mui/material/IconButton';
 import InfoIcon from '@mui/icons-material/Info';
+import { Popover } from '@mui/material';
+import { Typography } from '@mui/material';
 
 function TravelReviewCard({review}) {
-    const [showReview, setShowReview] = useState(false)
+    const [anchorEl, setAnchorEl] = React.useState(null);
 
-    function handleUserReview(){
-        setShowReview(!showReview)
-    }
+
+    const handleClose = () => {
+      setAnchorEl(null);
+    };
+
+    const handleClick = (event) => {
+      setAnchorEl(event.currentTarget);
+    };
+
+    const open = Boolean(anchorEl);
+    const id = open ? 'simple-popover' : undefined;
 
   return (
     <div className="travelCard">
@@ -23,14 +33,10 @@ function TravelReviewCard({review}) {
             loading="lazy"
           />
           <ImageListItemBar
-<<<<<<< HEAD
-            subtitle={review.user}
-=======
             position='bottom'
-            subtitle={showReview?review.review:review.user}
->>>>>>> main
+            subtitle={review.user}
             actionIcon={
-              <IconButton onClick={handleUserReview}
+              <IconButton onClick={handleClick}
                 sx={{ color: 'rgba(255, 255, 255, 0.54)' }}
                 aria-label={`info about ${review.user}`}
               >
@@ -38,6 +44,18 @@ function TravelReviewCard({review}) {
               </IconButton>
             }
           />
+            <Popover
+                  id={id}
+                  open={open}
+                  anchorEl={anchorEl}
+                  onClose={handleClose}
+                  anchorOrigin={{
+                    vertical: 'bottom',
+                    horizontal: 'left',
+                  }}
+                >
+            <Typography sx={{ p: 2 }}>{review.review}</Typography>
+          </Popover>
         </ImageListItem>
     </div>
   )
