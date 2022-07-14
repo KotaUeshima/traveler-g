@@ -1,5 +1,5 @@
-import React from 'react'
-import './TravelReviewCard.css'
+import React, {useState} from 'react'
+//import './TravelReviewCard.css'
 
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
@@ -7,9 +7,12 @@ import IconButton from '@mui/material/IconButton';
 import InfoIcon from '@mui/icons-material/Info';
 
 function TravelReviewCard({review}) {
+    const [showReview, setShowReview] = useState(false)
+
     function handleUserReview(){
-        console.log('hello')
+        setShowReview(!showReview)
     }
+
   return (
     <div className="travelCard">
         <ImageListItem key={review.user}>
@@ -20,9 +23,8 @@ function TravelReviewCard({review}) {
             loading="lazy"
           />
           <ImageListItemBar
-            titleWrap
             position='bottom'
-            subtitle={review.user}
+            subtitle={showReview?review.review:review.user}
             actionIcon={
               <IconButton onClick={handleUserReview}
                 sx={{ color: 'rgba(255, 255, 255, 0.54)' }}
