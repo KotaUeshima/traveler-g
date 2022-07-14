@@ -22,6 +22,7 @@ import FlagIcon from '@mui/icons-material/Flag';
 import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 import GTranslateIcon from '@mui/icons-material/GTranslate';
 import CameraAltIcon from '@mui/icons-material/CameraAlt';
+import {key} from '../superSecret'
 
 import {createTheme} from '@mui/material';
 
@@ -29,6 +30,15 @@ function HomeCountries({country}) {
   const {flag, name, continent, capital, currencies, Language, id} = country
 
   const [isFront, setIsFront] = useState(true)
+  const [currencyRate, setCurrencyRate] =useState('')
+
+  function displayCurrency(){
+    fetch(`https://v6.exchangerate-api.com/v6/${key}/latest/USD`)
+    .then(res=> res.json())
+    .then(data => setCurrencyRate(data.conversion_rates[currencies]))
+  }
+  const countryCurrency = `${currencies} : ${currencyRate} USD`
+
 
   return (
       <Grid item xs={3}>
@@ -41,13 +51,13 @@ function HomeCountries({country}) {
                 borderRadius: '16px'
             }}
             >
-              {isFront? 
+              {isFront?
               <CardMedia
                 component="img"
                 height="160"
                 image={flag}
                 alt={name}
-              /> : 
+              /> :
               <List>
                 <ListItem>
                   <ListItemIcon> <PublicIcon/> </ListItemIcon>
@@ -59,12 +69,12 @@ function HomeCountries({country}) {
                 </ListItem>
                 <ListItem>
                   <ListItemIcon> <AttachMoneyIcon/> </ListItemIcon>
-                  <ListItemText primary={currencies}/>
+                  <ListItemText primary={countryCurrency} />
                 </ListItem>
                 <ListItem>
                   <ListItemIcon> <GTranslateIcon/> </ListItemIcon>
                   <ListItemText primary={Language}/>
-                </ListItem>     
+                </ListItem>
               </List>
               }
               <CardContent>
@@ -74,11 +84,14 @@ function HomeCountries({country}) {
               </CardContent>
               <CardActions>
                 <div>
-                  <Button 
+                  <Button
                   size="small"
                   variant="text"
-                  onClick={() => setIsFront(!isFront)}
-                  >
+                  onClick={() => {
+                    setIsFront(!isFront)
+                    displayCurrency()
+                  }
+                }>
                   {isFront?"Learn More":"Go Back"}
                   </Button>
                   <Link style={{textDecoration: 'none'}} to={`/${id}`}>
@@ -92,7 +105,7 @@ function HomeCountries({country}) {
           </div>
         </div>
       </Grid>
-    
+
   )
 }
 

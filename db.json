@@ -46,8 +46,6 @@
           "review": "Visited the Bay of Fundy in New Brunswick this summer with my family. What a great experience to see the highest tides in the world.If you are taking a trip to the east coast I would highly recommend visitng!"
         },
         {
-<<<<<<< HEAD
-=======
           "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr-V69np1SNQUZoQ7UetTFoVLjBluwdAW0yQ&usqp=CAU",
           "user": "KatieMulbury",
           "like": 5,
@@ -60,23 +58,28 @@
           "review": "Pack your warm clothes and visit the Yukon in the winter for a chance to see the northern Lights! What a memorable experience!"
         },
         {
->>>>>>> 651e4e30198046687e1ca72c1bc46609f1862870
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKyRdzWfx319uwHZtlq6HVC_7jR98sm9Eajw&usqp=CAU",
+          "user": "CallumSharma",
+          "like": 5,
+          "review": "Went to my first Calgary stampeed, what a hoot! Yeehaw!"
+        },
+        {
           "img": "https://cdn.britannica.com/93/94493-050-35524FED/Toronto.jpg",
           "user": "Kota",
           "like": 3,
           "review": "Looks cool!"
         },
         {
-          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJJqxYMF-OUmUUwBdPv84K-ZL4mnzGUpwMsg&usqp=CAU",
-          "user": "LindsayBieb",
-          "like": 1,
-          "review": "Whistler is a true paradice for skiing and snowboarding."
-        },
-        {
           "img": "https://partners.novascotia.com/sites/default/files/Peggy%27s%20Cove%20Ligthouse%20-medium.jpg",
           "user": "MaddisonTrilly",
           "like": 0,
           "review": "Peggy's cove is a beautiful day trip from Halifax!"
+        },
+        {
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJJqxYMF-OUmUUwBdPv84K-ZL4mnzGUpwMsg&usqp=CAU",
+          "user": "LindsayBieb",
+          "like": 1,
+          "review": "Whistler is a true paradice for skiing and snowboarding."
         },
         {
           "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmySQqqNJiy-pZxWDkGtNfEdbkNJk4Wm3EIw&usqp=CAU",
@@ -89,25 +92,6 @@
           "user": "KatrinaBoland",
           "like": 0,
           "review": "Niagara wine country is so pretty and only a short drive from niagara falls. Stop in for fresh fruit and to try some ice Wine which the region is famous for."
-        },
-        {
-<<<<<<< HEAD
-          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr-V69np1SNQUZoQ7UetTFoVLjBluwdAW0yQ&usqp=CAU",
-          "user": "KatieMulbury",
-          "like": 6,
-          "review": "Such a fun weekend trip to see Drake's home city! Was lucky enough the check out a Toronto raptors game and had a blast!"
-        },
-        {
-          "img": "",
-          "user": "",
-          "like": 0,
-          "review": ""
-=======
-          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKyRdzWfx319uwHZtlq6HVC_7jR98sm9Eajw&usqp=CAU",
-          "user": "CallumSharma",
-          "like": 5,
-          "review": "Went to my first Calgary stampeed, what a hoot! Yeehaw!"
->>>>>>> 651e4e30198046687e1ca72c1bc46609f1862870
         }
       ]
     },
@@ -137,7 +121,7 @@
       "continent": "Central America",
       "flag": "https://countryflagsapi.com/png/bz",
       "capital": "Belmopan",
-      "currencies": "BZ",
+      "currencies": "BZD",
       "Language": "English, Belizean Creole",
       "travelReviews": []
     },
@@ -177,7 +161,7 @@
       "continent": "South America",
       "flag": "https://countryflagsapi.com/png/ve",
       "capital": "Caracas",
-      "currencies": "VEF",
+      "currencies": "VES",
       "Language": "Spanish",
       "travelReviews": []
     },
@@ -317,7 +301,7 @@
       "continent": "Europe, Asia",
       "flag": "https://countryflagsapi.com/png/tr",
       "capital": "Ankara",
-      "currencies": "TL",
+      "currencies": "TRY",
       "Language": "Turkish",
       "travelReviews": []
     },
@@ -337,7 +321,7 @@
       "continent": "Asia",
       "flag": "https://countryflagsapi.com/png/cn",
       "capital": "Beijing",
-      "currencies": "RMB",
+      "currencies": "CNY",
       "Language": "Chinese",
       "travelReviews": []
     },
@@ -430,7 +414,7 @@
       "continent": "Africa",
       "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/255px-Flag_of_Senegal.svg.png",
       "capital": "Dakar",
-      "currencies": "CFA",
+      "currencies": "XOF",
       "Language": "Wolof",
       "travelReviews": []
     },
