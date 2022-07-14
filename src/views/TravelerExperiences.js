@@ -9,7 +9,6 @@ function TravelerExperiences() {
   const [country, setCountry] = useState({})
   const [loading, setLoading] = useState(true)
 
-
   useEffect(() => {
       fetch(`http://localhost:3000/countries/${id}`)
       .then(res => res.json())
@@ -23,14 +22,9 @@ function TravelerExperiences() {
       return <p>Data is loading...</p>;
     }
 
-    function addToPage(data){
-        setCountry(data)
-    }
-
     return (
       <div className="experience">
           <h1>Traveler's experiences in {country.name}</h1>
-          <ModalForm id={id} reviews={country.travelReviews} addToPage={addToPage}/>
           <TravelerReviews id={id} reviews={country.travelReviews}/>
       </div>
   )

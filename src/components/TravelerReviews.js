@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import TravelReviewCard from './TravelReviewCard';
-
+import ModalForm from '../components/ModalForm'
 
 import Container from '@mui/material/Container';
 import ImageList from '@mui/material/ImageList';
@@ -12,6 +12,10 @@ function TravelerReviews({reviews = [], id}) {
       setNewReviews(data)
     }
 
+    function addToPage(data){
+      setNewReviews(data.travelReviews)
+    }
+
     // sort by number of likes
     newReviews.sort((a, b) => b.like - a.like)
 
@@ -21,6 +25,7 @@ function TravelerReviews({reviews = [], id}) {
 
   return (
     <div className="experience">
+      <ModalForm id={id} reviews={newReviews} addToPage={addToPage}/>
       <Container sx={{width: 1200}}>
         <ImageList sx={{height: 600}} cols={4} rowHeight={255}>
             {travelCard}
