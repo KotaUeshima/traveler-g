@@ -12,7 +12,7 @@
         {
           "img": "https://www.planetware.com/photos-large/CDN/canada-niagara-falls-horseshoe-falls.jpg",
           "user": "Kota",
-          "like": 23,
+          "like": 26,
           "review": "Niagara Falls!!!"
         },
         {
@@ -46,22 +46,25 @@
           "review": "Visited the Bay of Fundy in New Brunswick this summer with my family. What a great experience to see the highest tides in the world.If you are taking a trip to the east coast I would highly recommend visitng!"
         },
         {
-          "img": "https://cdn.britannica.com/93/94493-050-35524FED/Toronto.jpg",
-          "user": "Kota",
-          "like": 3,
-          "review": "Looks cool!"
-        },
-        {
-          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKyRdzWfx319uwHZtlq6HVC_7jR98sm9Eajw&usqp=CAU",
-          "user": "CallumSharma",
-          "like": 2,
-          "review": "Went to my first Calgary stampeed, what a hoot! Yeehaw!"
+<<<<<<< HEAD
+=======
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr-V69np1SNQUZoQ7UetTFoVLjBluwdAW0yQ&usqp=CAU",
+          "user": "KatieMulbury",
+          "like": 5,
+          "review": "Such a fun weekend trip to see Drake's home city! Was lucky enough the check out a Toronto raptors game and had a blast!"
         },
         {
           "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA_Lu1Y1QENWHMbErCEK8cgzbGDmCiwWMVTw&usqp=CAU",
           "user": "NancyPeterson",
-          "like": 1,
+          "like": 5,
           "review": "Pack your warm clothes and visit the Yukon in the winter for a chance to see the northern Lights! What a memorable experience!"
+        },
+        {
+>>>>>>> 651e4e30198046687e1ca72c1bc46609f1862870
+          "img": "https://cdn.britannica.com/93/94493-050-35524FED/Toronto.jpg",
+          "user": "Kota",
+          "like": 3,
+          "review": "Looks cool!"
         },
         {
           "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJJqxYMF-OUmUUwBdPv84K-ZL4mnzGUpwMsg&usqp=CAU",
@@ -88,6 +91,7 @@
           "review": "Niagara wine country is so pretty and only a short drive from niagara falls. Stop in for fresh fruit and to try some ice Wine which the region is famous for."
         },
         {
+<<<<<<< HEAD
           "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr-V69np1SNQUZoQ7UetTFoVLjBluwdAW0yQ&usqp=CAU",
           "user": "KatieMulbury",
           "like": 6,
@@ -98,6 +102,12 @@
           "user": "",
           "like": 0,
           "review": ""
+=======
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKyRdzWfx319uwHZtlq6HVC_7jR98sm9Eajw&usqp=CAU",
+          "user": "CallumSharma",
+          "like": 5,
+          "review": "Went to my first Calgary stampeed, what a hoot! Yeehaw!"
+>>>>>>> 651e4e30198046687e1ca72c1bc46609f1862870
         }
       ]
     },
@@ -109,26 +119,7 @@
       "capital": "Washington D.C.",
       "currencies": "USD",
       "Language": "English",
-      "travelReviews": [
-        {
-          "img": "https://cdn.britannica.com/93/94493-050-35524FED/Toronto.jpg",
-          "user": "Kota",
-          "like": 10,
-          "review": "Looks cool!"
-        },
-        {
-          "img": "https://www.planetware.com/photos-large/CDN/canada-niagara-falls-horseshoe-falls.jpg",
-          "user": "Kota",
-          "like": 8,
-          "review": "Niagara Falls!!!"
-        },
-        {
-          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA_Lu1Y1QENWHMbErCEK8cgzbGDmCiwWMVTw&usqp=CAU",
-          "user": "NancyPeterson",
-          "like": 11,
-          "review": "Pack your warm clothes and visit the Yukon in the winter for a chance to see the northern Lights! What a memorable experience!"
-        }
-      ]
+      "travelReviews": []
     },
     {
       "id": 3,
@@ -360,39 +351,21 @@
       "Language": "Japanese",
       "travelReviews": [
         {
-          "img": "https://www.planetware.com/photos-large/CDN/canada-niagara-falls-horseshoe-falls.jpg",
-          "user": "Kota",
-          "like": 23,
-          "review": "Niagara Falls!!!"
-        },
-        {
           "img": "https://www.brinknews.com/wp-content/uploads/2022/02/Shibuya-Japan_jezael-melgoza-alY6_OpdwRQ-unsplash.jpg",
           "user": "Rose",
-          "like": 14,
+          "like": 16,
           "review": "Best place to shop"
         },
         {
           "img": "https://www.travelandleisure.com/thmb/oNOCxSWt9XXFO3ogqG50TMHkMp4=/1600x1000/filters:fill(auto,1)/sakura-temple-pagoda-japan-VISITJP0218-73f37dad55eb4cb5b02ea4ae0eee714d.jpg",
           "user": "Kota",
-          "like": 14,
+          "like": 15,
           "review": "It was a fun time!"
-        },
-        {
-          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0PuJ2IFaJiO3HbBm_81sYNQNz3sHy-XbrJQ&usqp=CAU",
-          "user": "SarahSleeman",
-          "like": 13,
-          "review": "Visited the nation's capitol! beautiful weekend and very nice to see the parliment buildings"
-        },
-        {
-          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqkbNNgJX2cUfPEsisO0b6VwdGrSxiE2sO_Q&usqp=CAU",
-          "user": "EthanKorman",
-          "like": 9,
-          "review": "Vancouver is a beautiful blend of city and nature. Mountain views and near the water, all with the best a city has to offer."
         },
         {
           "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8Tw-abdC9D1suqWfVjEZ_SCV-rt23WlNU1w&usqp=CAU",
           "user": "James",
-          "like": 8,
+          "like": 10,
           "review": "Wow!"
         },
         {
@@ -402,10 +375,10 @@
           "review": ""
         },
         {
-          "img": "https://globalgrasshopper.com/wp-content/uploads/2020/03/Cool-Tokyo.jpg",
-          "user": "Shimano",
-          "like": 4,
-          "review": "fun!\n"
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7oOH8SD2bbgnMqhVKOE4vZSGTQFom0Cd08A&usqp=CAU",
+          "user": "Kota",
+          "like": 3,
+          "review": "test"
         },
         {
           "img": "https://www.touropia.com/gfx/d/famous-temples/golden_pavilion.jpg",
@@ -414,10 +387,10 @@
           "review": ""
         },
         {
-          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7oOH8SD2bbgnMqhVKOE4vZSGTQFom0Cd08A&usqp=CAU",
-          "user": "Kota",
-          "like": 3,
-          "review": "test"
+          "img": "https://globalgrasshopper.com/wp-content/uploads/2020/03/Cool-Tokyo.jpg",
+          "user": "Shimano",
+          "like": 5,
+          "review": "fun!\n"
         }
       ]
     },
