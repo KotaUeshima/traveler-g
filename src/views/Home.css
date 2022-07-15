@@ -1,10 +1,13 @@
 /* Container For All Country Cards */
 .home .home__grid{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .home{
     grid-row: 2;
-    /* background-color: #e1e8eb; */
     padding-top: 3vh;
+}
+
+.clickCamera {
+    margin-bottom: 3%;
 }

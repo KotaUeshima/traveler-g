@@ -42,7 +42,7 @@ const Styles = {
   &:active {
     color: white;
   }
-
+  }
   `,
   Container: styled.div`
     align-items: center;

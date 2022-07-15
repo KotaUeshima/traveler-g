@@ -35,6 +35,7 @@ function Home() {
 
   return (
     <div className="home">
+      {/* <i>* click on camera icon to explore user expereinces</i> */}
       <Container sx={{height: 1000, width: 1100}}>
         <Box>
           <TextField
@@ -45,6 +46,9 @@ function Home() {
           onChange={handleSearch}
           />
           <div className="home__grid">
+            <div className="clickCamera">
+              <i>* click on camera icon to explore user expereinces</i>
+            </div>
             <Grid container spacing={5}>
               {countryCards}
             </Grid>
