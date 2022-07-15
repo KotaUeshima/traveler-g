@@ -6,21 +6,24 @@ import ImageListItemBar from '@mui/material/ImageListItemBar';
 import IconButton from '@mui/material/IconButton';
 import InfoIcon from '@mui/icons-material/Info';
 import { Popover } from '@mui/material';
-import { Typography } from '@mui/material';
+import { Typography} from '@mui/material';
 
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import FavoriteIcon from '@mui/icons-material/Favorite';
+import { Chip } from '@mui/material';
+import { red } from '@mui/material/colors'
+import { Box } from '@mui/system';
 
 function TravelReviewCard({review, id, newReviews, updateNewReviews}) {
     const [anchorEl, setAnchorEl] = useState(null);
     const [liked, setLiked] = useState(false)
     const [numberOfLikes, setNumberOfLikes] = useState(review.like)
-    
+
     function handleLike(){
       if(liked === false){
 
         const newLikes = numberOfLikes + 1
-        // relies on images 
+        // relies on images
         const reviewsWithoutReview = newReviews.filter(element => !(element.img === review.img))
 
         const updateLikes = [...reviewsWithoutReview, {
@@ -59,7 +62,7 @@ function TravelReviewCard({review, id, newReviews, updateNewReviews}) {
     const open = Boolean(anchorEl);
     const idid = open ? 'simple-popover' : undefined;
 
-    const subtitle = `${review.user} (${numberOfLikes})`
+    const subtitle = `${review.user}`
     const color = liked? 'rgba(255, 76, 48)' : 'rgba(255, 255, 255, 0.54)'
 
   return (
@@ -73,21 +76,21 @@ function TravelReviewCard({review, id, newReviews, updateNewReviews}) {
           />
           <ImageListItemBar
             position='bottom'
-            subtitle={subtitle}
+            title={subtitle}
             actionIcon={
               <>
-                <IconButton 
+                <IconButton
                   onClick={handleClick}
                   sx={{ color: 'rgba(255, 255, 255, 0.54)' }}
                   aria-label={`info about ${review.user}`}
                 >
-                  <InfoIcon />
+                  <InfoIcon/>
                 </IconButton>
                 <IconButton
                   onClick={handleLike}
                   sx= {{ color: {color}}}
                 >
-                  {liked? <FavoriteIcon/> : <FavoriteBorderIcon/>}
+                  {liked? <Chip color='primary' style={{backgroundColor:'white', color:'red'}} icon ={<FavoriteIcon/>} label={numberOfLikes}/> : <Chip color='primary' style={{color:'white'}} variant='outlined'icon={<FavoriteBorderIcon/>} label={numberOfLikes}/>}
                 </IconButton>
               </>
             }
@@ -99,10 +102,10 @@ function TravelReviewCard({review, id, newReviews, updateNewReviews}) {
                   onClose={handleClose}
                   anchorOrigin={{
                     vertical: 'bottom',
-                    horizontal: 'left',
+                    horizontal: 'center',
                   }}
                 >
-            <Typography sx={{ p: 2 }}>{review.review}</Typography>
+                  <Typography sx={{ p: 2 }}>{review.review}</Typography>
           </Popover>
         </ImageListItem>
     </div>
