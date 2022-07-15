@@ -5,6 +5,6 @@
 
 .home{
     grid-row: 2;
-    background-color: #e1e8eb;
+    /* background-color: #e1e8eb; */
     padding-top: 3vh;
 }

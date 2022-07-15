@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import './HomeCountries.css'
 
 import Grid from '@mui/material/Grid';
-import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
@@ -24,7 +23,7 @@ import GTranslateIcon from '@mui/icons-material/GTranslate';
 import CameraAltIcon from '@mui/icons-material/CameraAlt';
 import {key} from '../superSecret'
 
-import {createTheme} from '@mui/material';
+
 
 function HomeCountries({country}) {
   const {flag, name, continent, capital, currencies, Language, id} = country
@@ -37,7 +36,7 @@ function HomeCountries({country}) {
     .then(res=> res.json())
     .then(data => setCurrencyRate(data.conversion_rates[currencies]))
   }
-  const countryCurrency = `USD = ${currencyRate} ${currencies}`
+  const countryCurrency = `1 USD = ${currencyRate} ${currencies}`
 
 
   return (

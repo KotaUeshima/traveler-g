@@ -35,7 +35,7 @@ function Home() {
 
   return (
     <div className="home">
-      <Container sx={{width: 1100}}>
+      <Container sx={{height: 1000, width: 1100}}>
         <Box>
           <TextField
           size="small"

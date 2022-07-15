@@ -2,6 +2,11 @@
   text-align: center;
   display: grid;
   grid-template-rows: 10vh 90vh;
+  /* background-color: #e1e8eb; */
+}
+
+body {
+  background-color: #e1e8eb;
 }
 
 
