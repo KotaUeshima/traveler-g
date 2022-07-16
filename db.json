@@ -30,7 +30,7 @@
         {
           "img": "https://www.bayoffundy.com/assets/walking-ocean-floor.jpg",
           "user": "CamilVanderglas",
-          "like": 7,
+          "like": 8,
           "review": "Visited the Bay of Fundy in New Brunswick this summer with my family. What a great experience to see the highest tides in the world.If you are taking a trip to the east coast I would highly recommend visitng!"
         },
         {
@@ -84,7 +84,7 @@
         {
           "img": "https://www.planetware.com/photos-large/CDN/canada-niagara-falls-horseshoe-falls.jpg",
           "user": "Kota",
-          "like": 37,
+          "like": 52,
           "review": "Niagara Falls!!!"
         }
       ]
@@ -672,12 +672,6 @@
       "Language": "Japanese",
       "travelReviews": [
         {
-          "img": "https://www.brinknews.com/wp-content/uploads/2022/02/Shibuya-Japan_jezael-melgoza-alY6_OpdwRQ-unsplash.jpg",
-          "user": "Rose",
-          "like": 16,
-          "review": "Best place to shop"
-        },
-        {
           "img": "https://www.travelandleisure.com/thmb/oNOCxSWt9XXFO3ogqG50TMHkMp4=/1600x1000/filters:fill(auto,1)/sakura-temple-pagoda-japan-VISITJP0218-73f37dad55eb4cb5b02ea4ae0eee714d.jpg",
           "user": "Kota",
           "like": 15,
@@ -696,6 +690,12 @@
           "review": ""
         },
         {
+          "img": "https://globalgrasshopper.com/wp-content/uploads/2020/03/Cool-Tokyo.jpg",
+          "user": "Shimano",
+          "like": 5,
+          "review": "fun!\n"
+        },
+        {
           "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7oOH8SD2bbgnMqhVKOE4vZSGTQFom0Cd08A&usqp=CAU",
           "user": "Kota",
           "like": 3,
@@ -708,10 +708,10 @@
           "review": ""
         },
         {
-          "img": "https://globalgrasshopper.com/wp-content/uploads/2020/03/Cool-Tokyo.jpg",
-          "user": "Shimano",
-          "like": 5,
-          "review": "fun!\n"
+          "img": "https://www.brinknews.com/wp-content/uploads/2022/02/Shibuya-Japan_jezael-melgoza-alY6_OpdwRQ-unsplash.jpg",
+          "user": "Rose",
+          "like": 17,
+          "review": "Best place to shop"
         }
       ]
     },

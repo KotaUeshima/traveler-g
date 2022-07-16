@@ -1,10 +1,10 @@
 import React, {useEffect, useState} from 'react'
 import {useParams} from 'react-router-dom'
-import ModalForm from '../components/ModalForm'
-import TravelerReviews from '../components/TravelerReviews'
-import './TravelerExperiences.css'
+//import './CountryPage.css'
 
-function TravelerExperiences() {
+import TravelerReviews from '../components/TravelerReviews'
+
+function CountryPage() {
   const {id} = useParams()
   const [country, setCountry] = useState({})
   const [loading, setLoading] = useState(true)
@@ -30,4 +30,4 @@ function TravelerExperiences() {
   )
 }
 
-export default TravelerExperiences
+export default CountryPage

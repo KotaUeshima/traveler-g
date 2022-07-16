@@ -4,35 +4,35 @@
     top: calc(50% - 250px);
     left: calc(50% - 150px);
 
-    border-radius: 5px;
+    border-radius: 10px;
     width: 300px;
-    height: 440px;
+    height: 400px;
 }
 
 .modal-form__form{
     display: grid;
-    grid-template-rows: 80px 80px 140px 80px;
+    grid-template-rows: 80px 80px 140px 40px;
 
     padding: 30px;
     margin-top: 30px;
 }
 
-.my-modal__username{
-    grid-row:1;
+.modal-form__username{
+    grid-row: 1;
 }
 
-.my-modal__image{
-    grid-row:2;
+.modal-form__image{
+    grid-row: 2;
 }
 
-.my-modal__comments{
-    grid-row:3;
+.modal-form__comment{
+    grid-row: 3;
 }
 
-.my-modal__submit{
-    grid-row:4;
+.modal-form__submit{
+    grid-row: 4;
     width: 240px;
-    height: 50px;
+    height: 40px;
     justify-self: end;
     align-self: start;
 }

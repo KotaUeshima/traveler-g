@@ -8,79 +8,94 @@ import FilledInput from '@mui/material/FilledInput'
 import Button from '@mui/material/Button'
 
 function ModalForm({id, reviews, addToPage}) {
-const [username, setUsername] = useState("")
-const [image, setImage] = useState("")
-const [comment, setComment] = useState("")
 
-const [open, setOpen] = useState(false)
+    const [open, setOpen] = useState(false)
 
-function handleUsername(e){
-    setUsername(e.target.value)
-}
+    const [formObj, setFormObj] = useState({
+        img: "",
+        user: "",
+        like: 0,
+        review: ""
+    })
 
-function handleImage(e){
-    setImage(e.target.value)
-}
-
-function handleComment(e){
-    setComment(e.target.value)
-}
-
-function handleSubmit(e){
-    e.preventDefault()
-    const formObj = {
-        "img": image,
-        "user": username,
-        "like": 0,
-        "review": comment
+    function handleChange(e){
+        setFormObj(obj => ({...obj, [e.target.id]: e.target.value}))
     }
-    fetch(`http://localhost:3000/countries/${id}`,{
-        method: "PATCH",
-        headers: {
-            "Content-Type": "application/json",
-            "Accept": "application/json"
-        },
-        body: JSON.stringify({
-            travelReviews: [...reviews, formObj]
-        }),
-    })
-    .then(res => res.json())
-    .then(data => {
-        addToPage(data)
-        setUsername("")
-        setImage("")
-        setComment("")
-        handleClose()
-    })
-}
 
-const handleOpen = () => setOpen(true)
-const handleClose = () => setOpen(false)
+    function handleSubmit(e){
+        e.preventDefault()
+        fetch(`http://localhost:3000/countries/${id}`,{
+            method: "PATCH",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json"
+            },
+            body: JSON.stringify({
+                travelReviews: [...reviews, formObj]
+            }),
+        })
+        .then(res => res.json())
+        .then(data => {
+            addToPage(data)
+            setFormObj({
+                img: "",
+                user: "",
+                like: 0,
+                review: ""
+            })
+            handleClose()
+        })
+    }
 
-  return (
-    <div className="modal-form">
-        <Button variant='contained' onClick={handleOpen}>Submit your Experiences</Button>
-        <Modal open={open} onClose={handleClose}>
-            <div className="modal-form__content">
-                <form className="modal-form__form" onSubmit={handleSubmit}>
-                    <FormControl  className='my-modal__username'>
-                        <InputLabel htmlFor='username'>Username</InputLabel>
-                        <FilledInput id='username' type='text' value={username} onChange={handleUsername}/>
-                    </FormControl>
-                    <FormControl  className='my-modal__image'>
-                        <InputLabel htmlFor='image' >Image</InputLabel>
-                        <FilledInput id='image' type='text' value={image} onChange={handleImage}/>
-                    </FormControl>
-                    <FormControl className='my-modal__comments'>
-                        <InputLabel htmlFor='comments' >Comments</InputLabel>
-                        <FilledInput multiline rows={3} id='comments' type='text' value={comment} onChange={handleComment}/>
-                    </FormControl>
-                    <Button variant="contained" type="submit" className='my-modal__submit'>Enter</Button>
-                </form>
-            </div>
-        </Modal>
-    </div>
-  )
+    const handleOpen = () => setOpen(true)
+    const handleClose = () => setOpen(false)
+
+    return (
+        <div className="modal-form">
+            <Button variant='contained' onClick={handleOpen}>Submit your Experiences</Button>
+            <Modal open={open} onClose={handleClose}>
+                <div className="modal-form__content">
+                    <form className="modal-form__form" onSubmit={handleSubmit}>
+                        <FormControl className='modal-form__username'>
+                            <InputLabel htmlFor='username'>Username</InputLabel>
+                            <FilledInput
+                            id='user'
+                            type='text'
+                            value={formObj.user}
+                            onChange={handleChange}
+                            />
+                        </FormControl>
+                        <FormControl className='modal-form__image'>
+                            <InputLabel htmlFor='img' >Image URL</InputLabel>
+                            <FilledInput
+                            id='img'
+                            type='text'
+                            value={formObj.img}
+                            onChange={handleChange}
+                            />
+                        </FormControl>
+                        <FormControl className='modal-form__comment'>
+                            <InputLabel htmlFor='review' >Comment</InputLabel>
+                            <FilledInput
+                            multiline rows={3}
+                            id='review'
+                            type='text'
+                            value={formObj.review}
+                            onChange={handleChange}
+                            />
+                        </FormControl>
+                        <Button
+                        variant="contained"
+                        type="submit"
+                        className='modal-form__submit'
+                        >
+                        Enter
+                        </Button>
+                    </form>
+                </div>
+            </Modal>
+        </div>
+    )
 }
 
 export default ModalForm

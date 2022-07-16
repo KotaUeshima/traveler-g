@@ -3,7 +3,7 @@ import './App.css';
 import Home from './views/Home';
 import ResponsiveAppBar from './components/Nav.js'
 import About from './views/About'
-import TravelerExperiences from './views/TravelerExperiences';
+import CountryPage from './views/CountryPage';
 import {
   BrowserRouter as Router,
   Switch,
@@ -25,7 +25,7 @@ function App() {
               <About />
             </Route>
             <Route path="/:id">
-              <TravelerExperiences />
+              <CountryPage />
             </Route>
           </Switch>
         </div>

@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import HomeCountries from '../components/HomeCountries'
+import CountryCard from '../components/CountryCard'
 import './Home.css'
 
 import TextField from '@mui/material/TextField';
@@ -30,7 +30,7 @@ function Home() {
   })
 
   const countryCards = filteredCountries.map(country => {
-    return <HomeCountries key={country.id} country={country}/>
+    return <CountryCard key={country.id} country={country}/>
   })
 
   return (

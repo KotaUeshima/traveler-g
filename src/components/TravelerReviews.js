@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import TravelReviewCard from './TravelReviewCard';
+import ImageCard from './ImageCard';
 import ModalForm from '../components/ModalForm'
 
 import Container from '@mui/material/Container';
@@ -20,7 +20,13 @@ function TravelerReviews({reviews = [], id}) {
     newReviews.sort((a, b) => b.like - a.like)
 
     const travelCard = newReviews.map((review)=> {
-        return <TravelReviewCard key={review.img} newReviews={newReviews} review={review} id={id} updateNewReviews={updateNewReviews}/>
+        return <ImageCard
+        key={review.img}
+        newReviews={newReviews}
+        review={review}
+        id={id}
+        updateNewReviews={updateNewReviews}
+        />
     })
 
   return (
