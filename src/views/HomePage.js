@@ -1,13 +1,13 @@
 import React, {useEffect, useState} from 'react'
 import CountryCard from '../components/CountryCard'
-import './Home.css'
+import './HomePage.css'
 
 import TextField from '@mui/material/TextField';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 
-function Home() {
+function HomePage() {
 
   const [countries, setCountries] = useState([])
   const [search, setSearch] = useState("")
@@ -35,7 +35,6 @@ function Home() {
 
   return (
     <div className="home">
-      {/* <i>* click on camera icon to explore user expereinces</i> */}
       <Container sx={{height: 1000, width: 1100}}>
         <Box>
           <TextField
@@ -46,8 +45,10 @@ function Home() {
           onChange={handleSearch}
           />
           <div className="home__grid">
-            <div className="clickCamera">
-              <i>* click on camera icon to explore user expereinces</i>
+            <div className="caption">
+              <i>* click on camera icon to explore user experirnces</i>
+              <br></br>
+              <i>* currency exchange is updated daily</i>
             </div>
             <Grid container spacing={5}>
               {countryCards}
@@ -59,4 +60,4 @@ function Home() {
   )
 }
 
-export default Home
+export default HomePage

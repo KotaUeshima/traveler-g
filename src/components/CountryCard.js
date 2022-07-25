@@ -90,8 +90,8 @@ function CountryCard({country}) {
                     setIsFront(!isFront)
                     displayCurrency()
                   }
-                }>
-                  {isFront?"Learn More":"Go Back"}
+                  }>
+                    {isFront?"Learn More":"Go Back"}
                   </Button>
                   <Link style={{textDecoration: 'none'}} to={`/${id}`}>
                     <IconButton aria-label="camera" size="small">

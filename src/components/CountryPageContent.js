@@ -5,7 +5,7 @@ import ModalForm from '../components/ModalForm'
 import Container from '@mui/material/Container';
 import ImageList from '@mui/material/ImageList';
 
-function TravelerReviews({reviews = [], id}) {
+function CountryPageContent({reviews = [], id}) {
     const [newReviews, setNewReviews] = useState(reviews)
 
     function updateNewReviews(data){
@@ -41,4 +41,4 @@ function TravelerReviews({reviews = [], id}) {
   )
 }
 
-export default TravelerReviews
+export default CountryPageContent
