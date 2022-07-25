@@ -7,6 +7,10 @@ div.polaroid {
     margin-right: 10%;
   }
 
+  img{
+    width: 80%
+  }
+
   div.container {
     text-align: center;
     padding: 10px 20px;
