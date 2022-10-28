@@ -92,7 +92,7 @@ function CountryCard({ country }) {
                   variant="text"
                   onClick={() => {
                     setIsFront(!isFront);
-                    displayCurrency();
+                    // displayCurrency();
                   }}
                 >
                   {isFront ? "Learn More" : "Go Back"}
