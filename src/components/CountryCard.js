@@ -28,11 +28,13 @@ function CountryCard({ country }) {
   const [isFront, setIsFront] = useState(true);
   const [currencyRate, setCurrencyRate] = useState(1);
 
-  // function displayCurrency(){
-  //   fetch(`https://v6.exchangerate-api.com/v6/${key}/latest/USD`)
-  //   .then(res=> res.json())
-  //   .then(data => setCurrencyRate(data.conversion_rates[currencies]))
-  // }
+  const key = "8e0fbefd6edf95a31acdd9f5";
+
+  function displayCurrency() {
+    fetch(`https://v6.exchangerate-api.com/v6/${key}/latest/USD`)
+      .then((res) => res.json())
+      .then((data) => setCurrencyRate(data.conversion_rates[currencies]));
+  }
 
   const countryCurrency = `1 USD = ${currencyRate} ${currencies}`;
 
@@ -92,7 +94,7 @@ function CountryCard({ country }) {
                   variant="text"
                   onClick={() => {
                     setIsFront(!isFront);
-                    // displayCurrency();
+                    displayCurrency();
                   }}
                 >
                   {isFront ? "Learn More" : "Go Back"}
