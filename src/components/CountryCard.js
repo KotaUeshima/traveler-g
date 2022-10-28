@@ -20,7 +20,7 @@ import FlagIcon from "@mui/icons-material/Flag";
 import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
 import GTranslateIcon from "@mui/icons-material/GTranslate";
 import CameraAltIcon from "@mui/icons-material/CameraAlt";
-// import {key} from '../superSecret'
+// import { key } from "../superSecret";
 
 function CountryCard({ country }) {
   const { flag, name, continent, capital, currencies, Language, id } = country;
@@ -28,7 +28,7 @@ function CountryCard({ country }) {
   const [isFront, setIsFront] = useState(true);
   const [currencyRate, setCurrencyRate] = useState(1);
 
-  const key = "8e0fbefd6edf95a31acdd9f5";
+  const key = process.env.REACT_APP_CURRENCY_KEY;
 
   function displayCurrency() {
     fetch(`https://v6.exchangerate-api.com/v6/${key}/latest/USD`)
