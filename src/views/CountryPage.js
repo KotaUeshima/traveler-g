@@ -12,7 +12,7 @@ function CountryPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`http://localhost:3001/countries/${id}`)
+    fetch(`http://localhost:3000/countries/${id}`)
       .then((res) => res.json())
       .then(setCountry)
       .finally(() => {

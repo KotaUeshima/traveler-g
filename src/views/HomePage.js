@@ -12,7 +12,7 @@ function HomePage() {
   const [search, setSearch] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:3001/countries")
+    fetch("http://localhost:3000/countries")
       .then((res) => res.json())
       .then(setCountries);
   }, []);

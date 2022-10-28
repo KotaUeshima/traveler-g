@@ -33,7 +33,7 @@ function ImageCard({ review, id, newReviews, updateNewReviews }) {
 
   function handleLike() {
     if (liked === false) {
-      fetch(`http://localhost:3001/countries/${id}`, {
+      fetch(`http://localhost:3000/countries/${id}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",
