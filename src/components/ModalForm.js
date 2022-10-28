@@ -24,7 +24,7 @@ function ModalForm({id, reviews, addToPage}) {
 
     function handleSubmit(e){
         e.preventDefault()
-        fetch(`http://localhost:3000/countries/${id}`,{
+        fetch(`http://localhost:3001/countries/${id}`,{
             method: "PATCH",
             headers: {
                 "Content-Type": "application/json",
